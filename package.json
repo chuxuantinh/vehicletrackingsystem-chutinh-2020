@@ -1,0 +1,40 @@
+{
+  "name": "vehicletrackingsystem",
+  "version": "1.0.0",
+  "description": "vehicle tracking system for trucks",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js"
+  },
+  "engines": {
+    "node": "8.11.3"
+  },
+  "author": "beitb78",
+  "license": "ISC",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "compression": "^1.7.3",
+    "connect-flash": "^0.1.1",
+    "cookie-parser": "^1.4.4",
+    "express": "^4.16.4",
+    "express-handlebars": "^2.0.1",
+    "express-session": "^1.15.6",
+    "graceful-fs": "^4.1.15",
+    "helmet": "^3.15.0",
+    "joi": "^14.3.1",
+    "jsonwebtoken": "^8.4.0",
+    "lodash": "^4.17.11",
+    "make-array": "^1.0.5",
+    "method-override": "^3.0.0",
+    "mongoose": "^5.4.3",
+    "mongoose-type-email": "^1.0.10",
+    "mongoose-unique-validator": "^2.0.2",
+    "nan": "^2.12.1",
+    "node-geocoder": "^3.22.0",
+    "node-pre-gyp": "^0.12.0",
+    "passport-local": "^1.0.0",
+    "shortid": "^2.2.14",
+    "validator": "^10.10.0"
+  }
+}

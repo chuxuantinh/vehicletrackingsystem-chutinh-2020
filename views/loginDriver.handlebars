@@ -1,0 +1,40 @@
+<html lang="en" class="gr__getbootstrap_com">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="">
+  <meta name="author" content="">
+  <link rel="icon" href="../../../../favicon.ico">
+
+  <title>Login Driver</title>
+
+  <link rel="canonical" href="https://getbootstrap.com/docs/4.1/examples/sign-in/">
+
+  <!-- Bootstrap core CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+  <!-- Custom styles for this template -->
+  <link href="/assets/css/login.css" rel="stylesheet">
+</head>
+
+<body class="text-center" data-gr-c-s-loaded="true">
+  <form class="form-signin" action ="/api/auth/driver" method="POST">
+    <h1 class="h3 mb-3 font-weight-normal">Driver  login</h1>
+    <label for="inputEmail" class="sr-only">Mobile No</label>
+    <input type="number" id="mobileNo" class="form-control" placeholder="Mobile No" name="mobileNo" required="" autofocus="">
+    <label for="inputPassword" class="sr-only">Password</label>
+    <input type="password" id="inputPassword" class="form-control" name="password" placeholder="Password" required="">
+    <div class="checkbox mb-3">
+      <label>
+        <input type="checkbox" value="remember-me"> Remember me
+      </label>
+    </div>
+    <button class="btn btn-lg btn-primary btn-block" type="submit">Sign in</button>
+    <p class="mt-5 mb-3 text-muted">vehicle tracking system</p>
+  </form>
+
+
+</body>
+
+</html>
